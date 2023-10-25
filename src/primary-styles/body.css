@@ -1,0 +1,12 @@
+.body {
+    background-color: var(--background-first-section);
+  }
+  .body__main{
+    
+    margin-top: 9vh;
+    z-index: -1;
+  }
+  .main__section{
+    margin: 2% 3%;
+  }
+

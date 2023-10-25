@@ -1,0 +1,34 @@
+:root{
+    font-family: 'Helvetica Neue', sans-serif;
+
+    /* style variables  */
+    --font-weight-regular:300;
+    --font-weight-medium:400;
+    --font-weight-bold:500;
+
+    --background-header:rgba(28, 28, 28, 0.942);
+    --background-first-section:rgb(112, 112, 112);
+    --background-card: #bdbdbdf1;
+    --text-color-primary: #f4f4f4;
+    --text-color-secondary: #274671
+
+    /* Reset styles */
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+    list-style-type: none;
+    border: none;
+  
+  }
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+    margin: inherit;
+    padding: inherit;
+    list-style-type: inherit;
+    font-weight: var(--font-weight-regular);
+    color: var(--text-color-primary);
+  }
